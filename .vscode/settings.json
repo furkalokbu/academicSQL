@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "postgresdb.cqh8zx545xp6.eu-central-1.rds.amazonaws.com",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "AWS Redshift",
+            "name": "AWS",
+            "database": "academicDB",
+            "username": "postgres"
+        }
+    ]
+}
