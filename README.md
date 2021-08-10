@@ -1,0 +1,2 @@
+# academicSQL
+Python&amp;SQL 
