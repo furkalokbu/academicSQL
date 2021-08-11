@@ -4,7 +4,7 @@ import psycopg2.extras
 conn = psycopg2.connect(
     database="academicDB",
     user="postgres",
-    password="postgres",
+    password="",
     host="postgresdb.cqh8zx545xp6.eu-central-1.rds.amazonaws.com",
     port='5432'
 )
@@ -47,7 +47,7 @@ conn.close()
 with psycopg2.connect(
     database="academicDB",
     user="postgres",
-    password="postgres",
+    password="",
     host="postgresdb.cqh8zx545xp6.eu-central-1.rds.amazonaws.com",
     port='5432') as conn:
     
@@ -63,7 +63,7 @@ with psycopg2.connect(
 conn = psycopg2.connect(
     database="academicDB",
     user="postgres",
-    password="postgres",
+    password="",
     host="postgresdb.cqh8zx545xp6.eu-central-1.rds.amazonaws.com",
     port='5432');
 
